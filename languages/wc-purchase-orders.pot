@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Purchase Orders for WooCommerce®\n"
-"POT-Creation-Date: 2024-12-04 01:52-0500\n"
-"PO-Revision-Date: 2024-12-04 01:52-0500\n"
+"POT-Creation-Date: 2025-02-18 13:41-0500\n"
+"PO-Revision-Date: 2025-02-18 13:41-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,164 +20,124 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
-"X-Poedit-SearchPathExcluded-1: includes/plugin-update-checker/vendor\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
 
-#: includes/plugin-update-checker/Puc/v5p4/Plugin/Ui.php:56
-msgid "View details"
-msgstr ""
-
-#: includes/plugin-update-checker/Puc/v5p4/Plugin/Ui.php:79
-#, php-format
-msgid "More information about %s"
-msgstr ""
-
-#: includes/plugin-update-checker/Puc/v5p4/Plugin/Ui.php:130
-msgid "Check for updates"
-msgstr ""
-
-#: includes/plugin-update-checker/Puc/v5p4/Plugin/Ui.php:217
-#, php-format
-msgctxt "the plugin title"
-msgid "The %s plugin is up to date."
-msgstr ""
-
-#: includes/plugin-update-checker/Puc/v5p4/Plugin/Ui.php:219
-#, php-format
-msgctxt "the plugin title"
-msgid "A new version of the %s plugin is available."
-msgstr ""
-
-#: includes/plugin-update-checker/Puc/v5p4/Plugin/Ui.php:221
-#, php-format
-msgctxt "the plugin title"
-msgid "Could not determine if updates are available for %s."
-msgstr ""
-
-#: includes/plugin-update-checker/Puc/v5p4/Plugin/Ui.php:227
-#, php-format
-msgid "Unknown update checker status \"%s\""
-msgstr ""
-
-#: includes/plugin-update-checker/Puc/v5p4/Vcs/PluginUpdateChecker.php:113
-msgid "There is no changelog available."
-msgstr ""
-
-#: purchase-orders-for-woocommerce.php:88
+#: purchase-orders-for-woocommerce.php:112
 msgid "Purchase Orders for WooCommerce® requires WooCommerce® to be active."
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:124
-#: purchase-orders-for-woocommerce.php:160
+#: purchase-orders-for-woocommerce.php:148
+#: purchase-orders-for-woocommerce.php:184
 msgid "Purchase Order"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:125
+#: purchase-orders-for-woocommerce.php:149
 msgid "Allow customers to pay via Purchase Order."
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:151
+#: purchase-orders-for-woocommerce.php:175
 msgid "Enable/Disable"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:153
+#: purchase-orders-for-woocommerce.php:177
 msgid "Enable Purchase Order Payment"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:157
+#: purchase-orders-for-woocommerce.php:181
 msgid "Title"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:159
+#: purchase-orders-for-woocommerce.php:183
 msgid "This controls the title displayed during checkout."
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:164
+#: purchase-orders-for-woocommerce.php:188
 msgid "Description"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:166
+#: purchase-orders-for-woocommerce.php:190
 msgid "This controls the description displayed during checkout."
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:167
+#: purchase-orders-for-woocommerce.php:191
 msgid "Place an order using a Purchase Order Number."
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:183
-#: purchase-orders-for-woocommerce.php:254
-#: purchase-orders-for-woocommerce.php:384
-#: purchase-orders-for-woocommerce.php:409
-#: purchase-orders-for-woocommerce.php:419
+#: purchase-orders-for-woocommerce.php:207
+#: purchase-orders-for-woocommerce.php:278
+#: purchase-orders-for-woocommerce.php:408
+#: purchase-orders-for-woocommerce.php:433
+#: purchase-orders-for-woocommerce.php:443
 msgid "Purchase Order Number"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:198
+#: purchase-orders-for-woocommerce.php:222
 msgid "Please enter a Purchase Order Number."
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:226
+#: purchase-orders-for-woocommerce.php:250
 msgid "Purchase order received."
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:270
-#: purchase-orders-for-woocommerce.php:301
+#: purchase-orders-for-woocommerce.php:294
+#: purchase-orders-for-woocommerce.php:325
 msgid "Purchase Orders Settings"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:271
+#: purchase-orders-for-woocommerce.php:295
 msgid "Purchase Orders"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:292
+#: purchase-orders-for-woocommerce.php:316
 msgid "Settings saved."
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:311
+#: purchase-orders-for-woocommerce.php:335
 msgid "Support"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:313
+#: purchase-orders-for-woocommerce.php:337
 msgid "Documentation"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:323
+#: purchase-orders-for-woocommerce.php:347
 msgid "Order Status"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:327
+#: purchase-orders-for-woocommerce.php:351
 msgid "Completed"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:328
+#: purchase-orders-for-woocommerce.php:352
 msgid "Processing"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:329
+#: purchase-orders-for-woocommerce.php:353
 msgid "On Hold"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:330
+#: purchase-orders-for-woocommerce.php:354
 msgid "Pending Payment"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:336
+#: purchase-orders-for-woocommerce.php:360
 msgid "Reduce Stock"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:340
+#: purchase-orders-for-woocommerce.php:364
 msgid "Yes"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:341
+#: purchase-orders-for-woocommerce.php:365
 msgid "No"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:345
+#: purchase-orders-for-woocommerce.php:369
 msgid "Save Settings"
 msgstr ""
 
-#: purchase-orders-for-woocommerce.php:407
-#: purchase-orders-for-woocommerce.php:417
+#: purchase-orders-for-woocommerce.php:431
+#: purchase-orders-for-woocommerce.php:441
 msgid "Purchase Order Number:"
 msgstr ""
 
