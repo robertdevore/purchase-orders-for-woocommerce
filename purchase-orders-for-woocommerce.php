@@ -12,7 +12,7 @@
  * Plugin Name: Purchase Orders for WooCommerce®
  * Description: Adds a "Purchase Order" option to WooCommerce® checkout, allowing customers to provide a PO number.
  * Plugin URI:  https://github.com/robertdevore/purchase-orders-for-woocommerce/
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Robert DeVore
  * Author URI:  https://robertdevore.com/
  * License:     GPL-2.0+
@@ -46,7 +46,7 @@ use RobertDevore\WPComCheck\WPComPluginHandler;
 new WPComPluginHandler( plugin_basename( __FILE__ ), 'https://robertdevore.com/why-this-plugin-doesnt-support-wordpress-com-hosting/' );
 
 // Define the plugin version.
-define( 'POWC_VERSION', '1.0.0' );
+define( 'POWC_VERSION', '1.0.1' );
 
 /**
  * Load plugin text domain for translations
