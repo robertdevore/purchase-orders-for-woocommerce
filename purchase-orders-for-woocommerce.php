@@ -24,7 +24,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-require 'includes/plugin-update-checker/plugin-update-checker.php';
+require 'vendor/plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
@@ -212,7 +212,7 @@ function wc_purchase_orders_include_gateway_class() {
         public function process_payment( $order_id ) {
             $order = wc_get_order( $order_id );
 
-            // Save the PO number
+            // Save the PO number.
             if ( ! empty( $_POST['po_number'] ) ) {
                 $order->update_meta_data( '_po_number', sanitize_text_field( $_POST['po_number'] ) );
                 $order->save();
